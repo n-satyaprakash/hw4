@@ -4,7 +4,7 @@ import { fetchWeather } from '../models/WeatherModel';
 
 const WeatherController = () => {
   const [weather, setWeather] = useState('Enter a city to get the current weather.');
-  const apiKey = '755a2a85e9bc415195bf4b01590c7e44';
+  const apiKey = '1834a8801dfad91388e3937a7305d30d';
 
   const handleFetchWeather = async (city: string) => {
     try {
